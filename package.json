@@ -1,0 +1,47 @@
+{
+  "name": "acheron",
+  "displayName": "Acheron",
+  "description": "A 'neo-retro' utilitarian theme with a focus on legibility and minimal distraction.",
+  "version": "4.4.1",
+  "publisher": "MOXIEPOLITAN",
+  "icon": "images/CoffeeSemiotic_128.png",
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/GlacierFox1/acheron-standard"
+  },
+  "keywords": [
+    "theme",
+    "light theme",
+    "dark theme",
+    "light",
+    "dark",
+    "retro",
+    "sci-fi",
+    "science",
+    "grey",
+    "white",
+    "scifi",
+    "alien"
+  ],
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Themes",
+    "Other"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Acheron",
+        "uiTheme": "vs",
+        "path": "./themes/Acheron-color-theme.json"
+      },
+      {
+        "label": "Acheron Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Acheron-dark-color-theme.json"
+      }
+    ]
+  }
+}
