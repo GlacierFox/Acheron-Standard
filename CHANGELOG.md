@@ -1,5 +1,9 @@
 # Acheron
 
+## 4.4.2
+
+-- Added consistent Razor directive colouring.
+
 ## 4.1.2
 
 -- Added custom colour for profileBadge.

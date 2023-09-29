@@ -7,7 +7,7 @@
 		"editor.foreground": "#212427",
 		"editor.findMatchHighlightBackground": "#ebc36b",
 		"editor.lineHighlightBorder": "#ff000000",
-		"editor.wordHighlightBackground": "#e6e6e6",
+		"editor.wordHighlightBackground": "#e2e2e2",
 		"peekView.border": "#7f859133",
 		"peekViewEditor.background": "#e9f6f8",
 		"peekViewEditorGutter.background": "#eeeeee",
@@ -78,10 +78,12 @@
 		"list.highlightForeground": "#4d853c",
 		"badge.background": "#ebc36b",
 		"terminal.foreground": "#ebc36b",
-		"terminal.ansiBrightWhite": "#1eff00",
+		"terminal.ansiBrightWhite": "#1dd2ff",
 		"terminal.ansiBrightRed":"#ff8f8f",
 		"terminal.ansiBrightBlue": "#39b6ff",
+		"terminal.ansiWhite": "#ebebeb",
 		"terminal.ansiBrightBlack": "#c7c7c7",
+		"terminal.ansiBrightCyan": "#f7e4a6",
 		"terminal.background": "#666666",
 		"terminal.selectionForeground": "#00c3ff",
 		"focusBorder": "#7f8591",
@@ -120,7 +122,87 @@
 				"keyword.control.razor.directive"
 			],
 			"settings": {
-				"foreground": "#db9600",
+				"foreground": "#03a5f0",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Blazor Directive Using",
+			"scope": [
+				"keyword.other.using.cs"
+			],
+			"settings": {
+				"foreground": "#03a5f0",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Blazor Directive Inject",
+			"scope": [
+				"keyword.control.razor.directive.inject"
+			],
+			"settings": {
+				"foreground": "#03a5f0",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Blazor Directive Layout",
+			"scope": [
+				"keyword.control.razor.directive.layout"
+			],
+			"settings": {
+				"foreground": "#03a5f0",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Blazor Directive Section",
+			"scope": [
+				"keyword.control.razor.directive.section"
+			],
+			"settings": {
+				"foreground": "#03a5f0",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Blazor Directive Inherits",
+			"scope": [
+				"keyword.control.razor.directive.inherits"
+			],
+			"settings": {
+				"foreground": "#03a5f0",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Blazor Directive Implements",
+			"scope": [
+				"keyword.control.razor.directive.implements"
+			],
+			"settings": {
+				"foreground": "#03a5f0",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Blazor Directive Attribute",
+			"scope": [
+				"keyword.control.razor.directive.attribute"
+			],
+			"settings": {
+				"foreground": "#03a5f0",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Blazor Directive Functions",
+			"scope": [
+				"keyword.control.razor.directive.functions"
+			],
+			"settings": {
+				"foreground": "#03a5f0",
 				"fontStyle": "bold"
 			}
 		},
@@ -130,7 +212,7 @@
 				"keyword.control.cshtml.transition"
 			],
 			"settings": {
-				"foreground": "#db9600",
+				"foreground": "#03a5f0",
 				"fontStyle": "bold"
 			}
 		},
