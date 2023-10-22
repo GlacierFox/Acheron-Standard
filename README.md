@@ -18,24 +18,18 @@ A 'neo-retro' utilitarian theme with a focus on legibility and minimal distracti
 # ◢◤◢◤◢◤◢◤◢◤ ══════════
 
 
-![](images/AcheronScreenshot_1_light.PNG)
+![](images/1light.png)
 
 
-![](images/AcheronScreenshot_1_dark.PNG)
-
-# ◢◤◢◤◢◤◢◤◢◤ ══════════
-
-![](images/AcheronScreenshot_2_light.PNG)
-
-
-![](images/AcheronScreenshot_2_dark.PNG)
+![](images/1dark.png)
 
 # ◢◤◢◤◢◤◢◤◢◤ ══════════
 
-![](images/AcheronScreenshot_3_light.PNG)
+![](images/2light.png)
 
 
-![](images/AcheronScreenshot_3_dark.PNG)
+![](images/2dark.png)
+
 
 # ◢◤◢◤◢◤◢◤◢◤ ══════════
 
