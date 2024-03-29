@@ -1,5 +1,9 @@
 # Acheron
 
+## 4.5.5
+
+-- Added XAML colouring.
+
 ## 4.4.2
 
 -- Added consistent Razor directive colouring.
