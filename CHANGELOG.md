@@ -1,8 +1,8 @@
 # Acheron
 
-## 4.5.5
+## 4.6.2
 
--- Added XAML colouring.
+-- Made test pass icon more visible and darkened terminal foreground colour.
 
 ## 4.4.2
 
