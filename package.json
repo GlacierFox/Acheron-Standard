@@ -2,7 +2,7 @@
   "name": "acheron",
   "displayName": "Acheron",
   "description": "A 'neo-retro' utilitarian theme with a focus on legibility and minimal distraction.",
-  "version": "4.6.5",
+  "version": "4.6.6",
   "publisher": "MOXIEPOLITAN",
   "icon": "images/CoffeeSemiotic_128.png",
   "repository": {
@@ -36,11 +36,6 @@
         "label": "Acheron",
         "uiTheme": "vs",
         "path": "./themes/Acheron-color-theme.json"
-      },
-      {
-        "label": "Acheron Dark",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Acheron-dark-color-theme.json"
       }
     ]
   }

@@ -20,15 +20,9 @@ A 'neo-retro' utilitarian theme with a focus on legibility and minimal distracti
 
 ![](images/1light.png)
 
-
-![](images/1dark.png)
-
 # ◢◤◢◤◢◤◢◤◢◤ ══════════
 
 ![](images/2light.png)
-
-
-![](images/2dark.png)
 
 
 # ◢◤◢◤◢◤◢◤◢◤ ══════════
