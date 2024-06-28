@@ -3,11 +3,11 @@
 	"type": "light",
 	"colors": {
 		
-		"editor.background": "#edf2f3",
+		"editor.background": "#edf1f1",
 		"editor.foreground": "#212427",
-		"editor.findMatchHighlightBackground": "#ebc36b",
+		"editor.findMatchHighlightBackground": "#ebc36bb6",
 		"editor.lineHighlightBorder": "#ff000000",
-		"editor.wordHighlightBackground": "#e2e2e2",
+		"editor.wordHighlightBackground": "#e2e2e2b7",
 		"peekView.border": "#7f859133",
 		"peekViewEditor.background": "#e9f6f8",
 		"peekViewEditorGutter.background": "#eeeeee",
@@ -19,11 +19,11 @@
 		"peekViewEditor.matchHighlightBackground": "#ebc36b",
 		"peekViewResult.background": "#7f859133",
 		"peekViewResult.selectionBackground": "#7f859133",
-		"editor.rangeHighlightBackground": "#ebc36b",
+		"editor.rangeHighlightBackground": "#ebc36bb9",
 		"editor.selectionBackground": "#0099ff23",
 		"editor.selectionForeground": "#eeff00",
 		"editor.findMatchBackground": "#9bcad2",
-		"sideBarSectionHeader.background": "#f1f4f5",
+		"sideBarSectionHeader.background": "#cdd3d3",
 		"sideBarSectionHeader.foreground": "#4b4b4b",
 		"sideBar.border": "#c7cccc",
 		"sideBar.background": "#dfe4e4",
@@ -35,16 +35,16 @@
 		"panelTitle.activeForeground": "#333333",
 		"panelSection.dropBackground": "#7f8591",
 		"searchEditor.findMatchBackground": "#ebc36b",
-		"tab.activeBorderTop": "#f7dba0",
+		"tab.activeBorderTop": "#f5cd77",
 		"tab.inactiveBackground": "#dfe4e4",
 		"tab.inactiveForeground": "#333333",
-		"tab.hoverBackground": "#d4d7da",
-		"tab.activeBackground": "#edf2f3",
+		"tab.hoverBackground": "#F8D68E",
+		"tab.activeBackground": "#edf1f1",
 		"tab.border": "#b9b9b9",
 		"editorGroupHeader.tabsBackground": "#dfe4e4",
 		"titleBar.activeBackground": "#c7cece",
 		"titleBar.inactiveBackground": "#c7cece",
-		"activityBar.background": "#c7cece",
+		"activityBar.background": "#cdd3d3",
 		"activityBar.foreground": "#2f4146",
 		"activityBar.border": "#c7cece",
 		"activityBarBadge.background": "#f1d28e",
@@ -60,7 +60,10 @@
 		"statusBar.debuggingForeground": "#ffffff",
 		"statusBar.background": "#71818d",
 		"statusBar.foreground": "#ffffff",
-		"statusBarItem.hoverBackground": "#c5a154",
+		"statusBarItem.hoverBackground": "#6cadd8",
+		"statusBarItem.hoverForeground": "#f5f5f5",
+		"statusBarItem.remoteHoverBackground": "#ffdb98",
+		"statusBarItem.remoteHoverForeground": "#000000",
 		"statusBarItem.remoteBackground": "#eec66e",
 		"statusBarItem.remoteForeground": "#333333",
 		"dropdown.background": "#ffffff",
@@ -76,15 +79,15 @@
 		"list.activeSelectionBackground": "#7f8591",
 		"list.activeSelectionForeground": "#f8f8f8",
 		"list.dropBackground": "#7f859186",
-		"list.hoverBackground": "#c7cece",
+		"list.hoverBackground": "#6cadd8",
 		"list.errorForeground": "#ff6842",
-		"list.hoverForeground": "#363636",
+		"list.hoverForeground": "#f5f5f5",
 		"list.highlightForeground": "#4d853c",
 		"badge.background": "#ebc36b",
 		"terminal.foreground": "#dda900",
 		"terminal.ansiBrightWhite": "#1dd2ff",
 		"terminal.ansiBrightRed":"#ff8f8f",
-		"terminal.ansiBrightBlue": "#39b6ff",
+		"terminal.ansiBrightBlue": "#4296ce",
 		"terminal.ansiWhite": "#ebebeb",
 		"terminal.ansiBrightBlack": "#c7c7c7",
 		"terminal.ansiBrightCyan": "#f7e4a6",
@@ -114,7 +117,7 @@
 		"quickInput.foreground": "#181818",
 		"quickInputList.focusBackground": "#ddb04d",
 		"debugConsole.infoForeground": "#333333",
-		"toolbar.hoverBackground": "#f1d28e",
+		"toolbar.hoverBackground": "#ffe3a8",
 		"descriptionForeground": "#020202",
 		"editor.snippetTabstopHighlightBackground": "#edf2f3",
 		"testing.iconPassed": "#05b413",
@@ -122,13 +125,92 @@
 	},
 	"tokenColors": [
 		{
+			"name": "XAML Name Tag Local",
+			"scope": [
+				"entity.name.tag.localname.xml"
+			],
+			"settings": {
+				"foreground": "#a31515",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "XAML Attribute Name Tag Local",
+			"scope": [
+				"entity.other.attribute-name.localname.xml"
+			],
+			"settings": {
+				"foreground": "#f73d06",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "XAML Meta Tag",
+			"scope": [
+				"meta.tag.xml"
+			],
+			"settings": {
+				"foreground": "#0000ff",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "XAML String Double Quoted",
+			"scope": [
+				"string.quoted.double.xml"
+			],
+			"settings": {
+				"foreground": "#0000ff",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "XAMLPunctuation Definition Tag",
+			"scope": [
+				"punctuation.definition.tag.xml"
+			],
+			"settings": {
+				"foreground": "#000000",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "XAML Attribute Name Namespace",
+			"scope": [
+				"entity.other.attribute-name.namespace.xml"
+			],
+			"settings": {
+				"foreground": "#22970d",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "XAML Punctuation Separator Namespace",
+			"scope": [
+				"punctuation.separator.namespace.xml"
+			],
+			"settings": {
+				"foreground": "#000000",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "XAML Punctuation Definition Tag",
+			"scope": [
+				"punctuation.definition.tag.xml"
+			],
+			"settings": {
+				"foreground": "#0000ff",
+				"fontStyle": ""
+			}
+		},
+		{
 			"name": "Blazor Directive Type",
 			"scope": [
 				"keyword.control.razor.directive"
 			],
 			"settings": {
 				"foreground": "#03a5f0",
-				"fontStyle": "bold"
 			}
 		},
 		{
@@ -138,7 +220,6 @@
 			],
 			"settings": {
 				"foreground": "#03a5f0",
-				"fontStyle": "bold"
 			}
 		},
 		{
@@ -148,7 +229,6 @@
 			],
 			"settings": {
 				"foreground": "#03a5f0",
-				"fontStyle": "bold"
 			}
 		},
 		{
@@ -158,7 +238,6 @@
 			],
 			"settings": {
 				"foreground": "#03a5f0",
-				"fontStyle": "bold"
 			}
 		},
 		{
@@ -168,7 +247,6 @@
 			],
 			"settings": {
 				"foreground": "#03a5f0",
-				"fontStyle": "bold"
 			}
 		},
 		{
@@ -178,7 +256,6 @@
 			],
 			"settings": {
 				"foreground": "#03a5f0",
-				"fontStyle": "bold"
 			}
 		},
 		{
@@ -188,7 +265,6 @@
 			],
 			"settings": {
 				"foreground": "#03a5f0",
-				"fontStyle": "bold"
 			}
 		},
 		{
@@ -198,7 +274,6 @@
 			],
 			"settings": {
 				"foreground": "#03a5f0",
-				"fontStyle": "bold"
 			}
 		},
 		{
@@ -208,7 +283,6 @@
 			],
 			"settings": {
 				"foreground": "#03a5f0",
-				"fontStyle": "bold"
 			}
 		},
 		{
@@ -218,7 +292,6 @@
 			],
 			"settings": {
 				"foreground": "#03a5f0",
-				"fontStyle": "bold"
 			}
 		},
 		{
