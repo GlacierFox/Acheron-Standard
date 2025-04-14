@@ -87,6 +87,7 @@
 		"badge.background": "#ebc36b",
 		"terminal.foreground": "#dda900",
 		"terminal.ansiBrightWhite": "#1dd2ff",
+		"terminal.ansiGreen": "#35da0c",
 		"terminal.ansiBrightRed": "#ff8f8f",
 		"terminal.ansiBrightBlue": "#4296ce",
 		"terminal.ansiWhite": "#ebebeb",
@@ -130,6 +131,8 @@
 		"menubar.selectionForeground":"#333333",
 		"menu.selectionForeground":"#ffffff",
 		"menu.background":"#f8d78f",
+		"scmGraph.historyItemHoverLabelForeground":"#ffffff",
+        "scmGraph.historyItemRemoteRefColor":"#0cb87f"
 	},
 	"tokenColors": [
 		{

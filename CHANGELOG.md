@@ -1,5 +1,9 @@
 # Acheron
 
+## 5.2.1
+
+-- Updated source control icon colours.
+
 ## 4.6.2
 
 -- Made test pass icon more visible and darkened terminal foreground colour.
