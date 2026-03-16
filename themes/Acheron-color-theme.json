@@ -97,7 +97,7 @@
 		"terminal.selectionForeground": "#00c3ff",
 		"focusBorder": "#7f8591",
 		"editorWidget.background": "#f8d588",
-		"editorWidget.border": "#ffa928",
+		"editorWidget.border": "#c7cece",
 		"editorSuggestWidget.selectedForeground": "#000000",
 		"editorSuggestWidget.selectedBackground": "#e9c371",
 		"editorSuggestWidget.selectedIconForeground": "#000000",
